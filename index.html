@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a30">
+  <meta name="description" content="オリジナルIELTS形式Reading練習。PC試験に近い画面で、時間制限・解答記録・採点・日本語の解説を無料体験。">
+  <title>Reading Lab — IELTS-style Practice</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <button class="wordmark" id="brand-home" aria-label="Reading Lab ホームへ">
+        <span class="logo-icon" aria-hidden="true"><span>R</span><span class="logo-dot"></span></span>
+        <span>READING<span class="wordmark-light">LAB</span><small>Independent English Practice</small></span>
+      </button>
+      <nav class="desktop-nav" aria-label="サイト内メニュー"><a href="#library" id="nav-library">Practice library</a><a href="#features" id="nav-features">Features</a></nav>
+      <span class="header-pill"><span class="live-dot"></span> FREE PRACTICE</span>
+    </div>
+  </header>
+  <main>
+    <section id="home-view" class="view" aria-label="模試一覧">
+      <div class="hero-wrap">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <div class="eyebrow"><span class="eyebrow-line"></span> PREPARE WITH PURPOSE. PRACTISE WITH CLARITY.</div>
+            <h1>More than<br><span class="h1-accent">just practice.</span></h1>
+            <p class="hero-lead">本番に近い環境で解く。<br>そして、なぜ間違えたのかまで理解する。</p>
+            <p class="hero-support">IELTS形式のオリジナルReading模試を、無料で。解答・採点・日本語解説まで、ひとつの場所に。</p>
+            <div class="hero-actions"><a class="btn btn-coral btn-lg" href="#library">無料模試を始める <span aria-hidden="true">↗</span></a><span class="hero-note"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 22s9-4.5 9-11V5l-9-3-9 3v6c0 6.5 9 11 9 11Z" stroke="currentColor" stroke-width="1.7"/><path d="m8.5 12 2.4 2.3 4.8-4.8" stroke="currentColor" stroke-width="1.7"/></svg> 登録不要</span></div>
+          </div>
+          <div class="hero-preview" aria-label="Reading模試の画面イメージ">
+            <div class="preview-window">
+              <div class="preview-top"><div class="preview-tabs"><i></i><i></i><i></i></div><span>READING / PRACTICE 01</span><div class="preview-clock">19:42</div></div>
+              <div class="preview-content"><div class="preview-passage"><div class="preview-mini">READING PASSAGE 01</div><div class="preview-title">The Return of<br>Urban Wetlands</div><div class="preview-rule"></div><div class="preview-lines"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="preview-highlight"></div><div class="preview-lines"><span></span><span></span><span></span></div></div><div class="preview-questions"><div class="preview-mini">QUESTIONS 1–13</div><div class="preview-question-number">01<span> / 13</span></div><div class="preview-qtext">Urban wetlands were often removed for economic development.</div><div class="preview-option preview-selected"><b><i></i></b> TRUE</div><div class="preview-option"><b></b> FALSE</div><div class="preview-option"><b></b> NOT GIVEN</div></div></div>
+              <div class="preview-bottom"><div class="preview-progress"><span></span><span class="done"></span><span></span><span></span><span></span><span></span><span></span><span></span></div><span>01 / 13 answered</span></div>
+            </div>
+            <div class="floating-card"><div class="floating-icon">✓</div><div><strong>Learn from every answer.</strong><small>解答根拠まで、丁寧に。</small></div></div>
+          </div>
+        </div>
+        <div class="hero-bottom-border"></div>
+      </div>
+      <div class="container metrics-row"><div><strong>01</strong><span>ORIGINAL TEST AVAILABLE</span></div><div><strong>13</strong><span>QUESTIONS PER PASSAGE</span></div><div><strong>100%</strong><span>FREE TO START</span></div><div class="metrics-trust"><span class="tiny-star">✳</span> Built for focused practice</div></div>
+      <section class="container library-section" id="library">
+        <div class="section-topline">01 <span></span> PRACTICE LIBRARY</div>
+        <div class="section-heading"><div><h2>Find your next challenge<span class="period">.</span></h2><p>テーマ別の模試から選んで、さっそく始めましょう。</p></div><div class="library-count" id="library-count">1 TEST AVAILABLE</div></div>
+        <div class="library-toolbar"><div class="segmented" role="group" aria-label="模試を絞り込み"><button type="button" class="segment active" data-filter="all" aria-pressed="true">All tests</button><button type="button" class="segment" data-filter="mini" aria-pressed="false">20-min practice</button><button type="button" class="segment" data-filter="full" aria-pressed="false">Full test</button></div><label class="search-box"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input type="search" id="test-search" placeholder="Search topics..." aria-label="模試を検索"></label></div>
+        <div class="test-grid" id="test-grid" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden>この条件に合う模試はまだありません。</p>
+      </section>
+      <section class="feature-band" id="features"><div class="container"><div class="section-topline light">02 <span></span> LEARN SMARTER</div><div class="feature-heading"><h2>Designed for<br><em>better learning.</em></h2><p>ただの問題集ではなく、弱点を理解するための学習体験に。</p></div><div class="feature-grid"><div class="feature"><div class="feature-number">01 /</div><div class="feature-icon">⌛</div><h3>Realistic exam mode</h3><p>制限時間、見やすい2カラム画面、設問ナビ。PC本番を意識した練習環境。</p></div><div class="feature"><div class="feature-number">02 /</div><div class="feature-icon">◎</div><h3>Instant feedback</h3><p>提出後に得点を表示。正答だけでなく、各設問の根拠と日本語解説も確認。</p></div><div class="feature"><div class="feature-number">03 /</div><div class="feature-icon">↗</div><h3>Track your progress</h3><p>同じ端末のブラウザに解答を自動保存。途中から再開して復習できます。</p></div></div></div></section>
+      <section class="container cta-section"><div><span class="cta-label">YOUR NEXT STEP STARTS HERE</span><h2>One passage.<br>One step forward.</h2></div><a class="btn btn-dark" href="#library">模試一覧へ戻る <span aria-hidden="true">↗</span></a></section>
+    </section>
+
+    <section id="intro-view" class="view" hidden aria-label="模試の詳細">
+      <div class="container intro-shell"><button type="button" class="text-back" id="intro-back">← 模試一覧に戻る</button><div class="intro-card"><div class="intro-art"><span class="intro-art-kicker">READING PRACTICE</span><span class="intro-art-index" id="intro-art-index">01</span><div class="art-ring"></div><span class="intro-art-bottom">READ. THINK. IMPROVE.</span></div><div class="intro-detail"><div class="eyebrow dark">BEFORE YOU BEGIN</div><h1 id="intro-title"></h1><p id="intro-description"></p><div class="intro-stats" id="intro-stats"></div><h3>試験について</h3><ul class="intro-points"><li>Startを押すと、制限時間のカウントが始まります。</li><li>途中でページを閉じても、この端末では回答が保存されます。</li><li>時間切れになると自動提出されます。未回答のまま提出することもできます。</li><li>提出後に各設問の正解と解説を確認できます。</li></ul><p class="intro-notice">本サービスはIELTS公式の試験ではありません。オリジナル練習問題の結果から公式Bandは算出しません。</p><div class="intro-actions"><button type="button" class="btn btn-coral" id="start-test">Start practice →</button><button type="button" class="btn btn-outline" id="resume-test" hidden>保存した回答から再開 →</button></div></div></div></div>
+    </section>
+
+    <section id="exam-view" class="view exam-view" hidden aria-label="Readingの受験画面">
+      <div class="exam-topbar"><div class="exam-top-left"><button type="button" class="exam-back" id="exam-back" aria-label="一覧に戻る">←</button><div><div class="exam-top-label">READING LAB <span>/</span> <span id="exam-test-label">PRACTICE</span></div><strong id="exam-title"></strong></div></div><div class="exam-top-right"><span class="exam-progress-label" id="exam-counter">0 / 13 answered</span><span class="exam-timer" id="timer" aria-label="残り時間">20:00</span><button type="button" class="exam-submit" id="submit-test">Submit →</button></div></div>
+      <div class="exam-passagebar"><div class="passage-buttons" id="passage-buttons"></div><div class="passage-bar-right"><span id="save-indicator">✓ 自動保存</span><button type="button" id="clear-highlights" class="ghost-btn" title="ハイライトを消去">Clear highlight</button></div></div>
+      <div class="exam-mobile-tabs" id="exam-mobile-tabs"><button type="button" id="mobile-passage" class="active">Passage · 本文</button><button type="button" id="mobile-questions">Questions · 設問</button></div>
+      <div class="exam-columns" id="exam-columns"><section class="exam-paper passage-pane" id="passage-pane" aria-label="Reading passage"><div class="paper-kicker" id="paper-kicker"></div><h2 id="passage-title"></h2><div class="passage-text" id="passage-text"></div></section><section class="exam-paper question-pane" id="question-pane" aria-label="Questions"><div id="result-summary"></div><div class="question-top"><div class="paper-kicker">ANSWER THE QUESTIONS</div><h2 id="question-title">Questions</h2><p id="question-subtitle">Read the passage and choose your answers.</p></div><div id="question-groups"></div></section></div>
+      <div class="exam-footer"><div class="footer-left"><strong id="footer-part">Passage 1</strong><small id="footer-progress">0 of 13 answered</small></div><div class="question-nav" id="question-nav" aria-label="設問番号ナビ"></div><div class="footer-legend"><span><i class="legend-answered"></i>Answered</span><span><i class="legend-flagged"></i>Review</span></div></div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"><div class="container footer-inner"><div><div class="footer-brand">READING<span>LAB</span><span class="footer-dot">.</span></div><p>Original IELTS-style practice, thoughtfully made.</p></div><div class="footer-note">Independent educational project. Not affiliated with, endorsed by, or sponsored by IELTS, IDP, British Council or Cambridge.<p>© 2026 Reading Lab. Original content.</p></div></div></footer>
+  <dialog id="submit-dialog" class="confirm-dialog"><form method="dialog"><div class="dialog-symbol">?</div><h2>解答を提出しますか？</h2><p id="dialog-message"></p><div class="dialog-actions"><button class="btn btn-outline" value="cancel">続ける</button><button class="btn btn-dark" value="confirm">提出する →</button></div></form></dialog>
+  <div role="status" aria-live="polite" class="toast" id="toast" hidden></div>
+<script src="data/tests.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
