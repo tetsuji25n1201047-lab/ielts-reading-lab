@@ -11,6 +11,6 @@ assert len(ids) == len(set(ids)), "Test IDs must be unique"
 for t in tests:
     numbers = [q["number"] for p in t["passages"] for s in p["sections"] for q in s["questions"]]
     assert len(numbers) == len(set(numbers)), f"Duplicate question numbers in {t['id']}"
-content = "/* Generated from data/tests.json. Do not edit by hand. */\\nwindow.READING_TESTS = " + json.dumps(tests, ensure_ascii=False, indent=2) + ";\\n"
+content = "/* Generated from data/tests.json. Do not edit by hand. */" + chr(10) + "window.READING_TESTS = " + json.dumps(tests, ensure_ascii=False, indent=2) + ";" + chr(10)
 (root / "data" / "tests.js").write_text(content, encoding="utf-8")
 print(f"Built {len(tests)} test(s) into data/tests.js")
